@@ -1,35 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram name="第 1 页" id="f1lDoEa_4Buz1sd2OJqB">
-    <mxGraphModel>
+    <mxGraphModel dx="1207" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry width="150" height="328" as="geometry" />
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-6" target="rjKmOqPW14WpBf0mzg6j-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="John" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="257" width="150" height="328" as="geometry" />
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-6" value="小程序前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Hello John, how are you?" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-9" target="rjKmOqPW14WpBf0mzg6j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-9" target="rjKmOqPW14WpBf0mzg6j-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-9" value="小程序后端（Node.js）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-11">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="212" y="111" />
-            </Array>
+            <mxPoint x="800" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5" value="Great!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="215" y="167" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-11" value="后端对图片进行转换，转换为&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;Base64编码&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="See you later!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=classic;endSize=10;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="212" y="223" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-13" target="rjKmOqPW14WpBf0mzg6j-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-13" value="后期也可以将图片上传至服务器，使URL可公开访问，将URL传给大模型，使大模型响应速度更快" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-15" target="rjKmOqPW14WpBf0mzg6j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-15" value="处理完成，昂图片和特定提示词&lt;div&gt;发送给大模型&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-19" target="rjKmOqPW14WpBf0mzg6j-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-19" value="大模型处理请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rjKmOqPW14WpBf0mzg6j-21" target="rjKmOqPW14WpBf0mzg6j-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-21" value="大模型返回数据至后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjKmOqPW14WpBf0mzg6j-23" value="前端解析数据，并以MD格式呈现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
